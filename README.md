@@ -47,7 +47,7 @@ protected:
             MessageBox(hwnd, L"DONT YOU CLOSE ME!", L"FU** NO", MB_ICONEXCLAMATION | MB_OK);
             return true;
         }
-    e    
+        
         // Call parent!
         return EasyHWND::Window::handleWindowMessage(ptrLRESULT, hwnd, msg, wParam, lParam);
     }
